@@ -1,0 +1,366 @@
+
+.titleHeader{
+	text-decoration:none;
+	color:white;
+}
+
+.titleHeader:hover{
+	text-decoration:none;
+	color:red;
+}
+
+div.nameSite{
+	color: black;
+	text-align: center;
+	text-shadow: 5px 5px 5px gray;
+	margin-top: 1%;
+	background-color: #b6d7b9;
+}
+
+span.searchBut{
+	background-image: url("../images/search.png");
+}
+
+div.myheader{
+	box-shadow: 0px 2px 5px gray;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	margin-bottom: 2.5%;
+	background-color: #bf360c;
+}
+
+div.myfooter{
+
+	box-shadow: 10px 5px 5px gray;
+	background-color: #bf360c;
+	opacity:0.8;
+}
+
+body{
+	background-color: #fefee2;
+	height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+}
+
+.labelModifyInfo{
+	position: absolute;
+	bottom:0px;
+	right:0px;
+}
+
+.homebut{
+	background:url('/images/homebutton.png');
+	width: 35%;
+	height: 100%;
+	background-size:100% 100%;
+	position: absolute;
+	margin-top: 3%;
+	opacity: 0.5;
+}
+
+.mybut{
+	width: 100%;
+	box-shadow: 0px 0px 0px gray;
+	margin-top: 5%;
+}
+
+.mysearchbut{
+	background-color: #bf360c ! important;
+	border-radius: 50px;
+}
+
+.imgSearch{
+	width : 20%;
+
+}
+
+.btn-primary{
+	border-color: #f76a3e;
+	background-color: #f76a3e;
+}
+
+.btn-primary:hover{
+	border-color: #574747;
+	background-color: #574747;
+
+}
+
+
+
+.noBoundsContainer{
+	margin:0%;padding:0%;
+}
+
+.deleteNoBack{
+	border:none;
+	background:none;
+	position:absolute;
+}
+
+.mysearchlist{
+	color:black;
+	margin: 1%;
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+	padding : 0%;
+}
+
+.researchButtonList{
+	margin-left:17.5%;
+	width:65%;
+}
+
+.mymenulist{
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+	width:100%;
+
+}
+
+.mycard{
+	border-style: ridge;
+	border-color: rgba(0, 0, 0, 0.125);
+	background-color: #f5f5f5;
+	border-width: 5px;
+}
+
+.mydishlink{
+	margin:1%;
+
+	color : black;
+	text-align: right;
+	background-color: #7fc6a4;
+	border-width: 0px;
+}
+
+.mybadgename{
+	margin-top: 1%;
+	margin-bottom: 5%;
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: inline;
+	background-color: #f76a3e;
+	height:50%;
+	display: inline-block;
+	width: 80%;
+	word-wrap:break-word;
+	vertical-align: middle;
+}
+
+.mybadgesearch{
+	align-self: center;
+
+}
+
+.carousel-item > div {
+  float: left;
+}
+.carousel-by-item [class*="cloneditem-"] {
+  display: none;
+}
+
+.myHoursDiv{
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+}
+
+
+.myDishDetails{
+	display: none;
+	position: absolute;
+	z-index:10;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: -3%;
+	margin-left: -50%;
+	width:60%;
+}
+
+.mypersinfoform{
+	padding: 1%;
+	margin-bottom: 10%;
+}
+
+.contentForm{
+	text-align: right;
+}
+
+.listInfoPers{
+	font-size: 200%;
+}
+
+.custom-select{
+	width:60% ;
+}
+
+.mymap{
+	margin-left: 10%;
+	margin-right: 10%;
+	height:100%;
+	opacity:0.5;
+}
+
+.myInputMap{
+	margin-left: 37.5%;
+	width:20%;
+	position:absolute;
+	z-index:1000000;
+}
+
+.iconFile{
+	vertical-align:middle;
+	margin-right:2%;
+}
+
+.label-file {
+
+    cursor: pointer;
+		color: #f1e5e6;
+    background-color: #d3394c;
+
+}
+.label-file:hover {
+    background-color: #722040;
+}
+
+#divModalHours{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+#divInputName{
+	margin-left: 0%;
+}
+
+#inputMap{
+	text-align:center;
+	max-width:100%;
+}
+
+#divRowMap{
+	margin-left:0%;
+	margin-right: 0%;
+	margin-bottom:5%;
+}
+
+#myspin{
+	display:none;
+	position:absolute;
+	z-index:1000000;
+	margin-left:45%;
+	margin-top:10%;
+}
+
+.buttonDeleteDish{
+	vertical-align:middle;
+	border:none;
+	background:none;
+}
+
+
+@media (max-width: 575.98px) {
+	html{
+			font-size:50%;
+	}
+	.mysearchlist, .mybadgename{
+			font-size: 100%;
+	}
+	.contentForm{
+		text-align: center;
+	}
+
+	.label-file {
+			width: 50%;
+	}
+	.mybut{
+		margin-top: 0.5%;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.mysearchbut{
+		width:70%;
+		margin-left: 15%;
+		margin-top: 2%;
+	}
+	.mymap{
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.labelModifyInfo{
+		position:relative;
+	}
+	.inputPers{
+		height:40% ! important;
+		margin-bottom:5%;
+	}
+}
+
+@media (min-width: 575.98px) {
+	html{
+			font-size:50%;
+	}
+	.mysearchlist, .mybadgename{
+			font-size: 150%;
+	}
+	.mybut{
+		margin-top: 0.5%;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;var name = ar[i].name;
+      var city = ar[i].city;
+	}
+	#divInputName{
+		text-align: center;
+	}
+	.mymap{
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+}
+
+
+
+@media (min-width: 767.98px) {
+	html{
+			font-size:60%;
+	}
+	.mysearchlist, .mybadgename{
+			font-size: 150%;
+	}
+	.mybut{
+		margin-top: 0.5%;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#divInputName{
+		text-align: center;
+	}
+	.mymap{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+@media (min-width: 1020px) {-left
+	html{
+			font-size:80%;
+	}
+	.mysearchlist, .mybadgename{
+			font-size: 150%;
+	}
+}
+@media (min-width: 1250px) {
+	html{
+			font-size:100%;
+	}
+	.mysearchlist, .mybadgename{
+			font-size: 150%;
+	}
+}
